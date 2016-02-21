@@ -1,0 +1,164 @@
+/* Copyright 2016 PaperBag Labs */ 
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    color: #6c6f73;
+}
+
+h2,h3,h4,h5 {
+    color: #333;
+}
+h5{
+
+text-align: center;
+font-size: 32px;
+font-weight: bold;
+margin: 0 0 60px;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #333;
+}
+/* image not uploaded yet
+    unsplash.com
+ */ 
+
+#pbl-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.service-content {
+    padding: 5rem 0;
+}
+
+#pblcover{
+    background: #222 url('https://images.unsplash.com/photo-1453872787409-dc25a2913da0?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-top:50px;
+}
+
+.card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+}
+.portfolio {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f7f7f7;
+}
+
+
+
+#pblcover-caption {
+    width: 100%;
+}
+#cover-introduction{
+
+    padding-top: 100px;
+    padding-bottom:100px;
+}
+#navbar-style{
+    padding-top: 15px;
+    float: right;
+}
+.cover-text{
+    font-size: 3.5rem;
+}
+
+.feature-dark{
+    color: #F1FAFB;
+    background-color: #FFDE74;
+    padding-top: 100px;
+    padding-bottom:100px;
+}
+
+#main-footer {
+    background: #262F36;
+    color: white;
+    padding: 6rem 0;
+    font-size: 0.8rem;
+}
+
+#pbl-end{
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+#main-footer h6 {
+    color: #718FA9;
+}
+
+#main-footer a {
+    color: #6C6F73;
+}
+
+.about-pbl {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  background-image: url('https://images.unsplash.com/photo-1453872787409-dc25a2913da0?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.about-pbl-heading {
+  font-weight: 300;
+}
+
+.about-pbl .container {
+  max-width: 40rem;
+  background: rgba(255,255,255,0.2);
+  padding: 2rem;
+  color: white;
+}
+
+.about-pbl p {
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+@media screen and (min-width: 991px)
+.about-1{
+    display: flex;
+    align-items: center;
+}
+
+.about-1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+#team{
+color: white;
+text-align: center;
+padding: 100px;
+}
