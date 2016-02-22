@@ -1,0 +1,13 @@
+ErrorDocument 404 /404.html
+ErrorDocument 503 /index.html
+RewriteCond %{HTTP_HOST} ^www\.paperbaglabs\.com$
+RewriteRule ^/?$ "http\:\/\/paperbaglabs\.com\/" [R=301,L]
+
+RewriteEngine On
+RewriteCond %{REMOTE_ADDR} !^123\.456\.789\.000
+RewriteCond %{DOCUMENT_ROOT}/maintenance.html -f
+RewriteCond %{DOCUMENT_ROOT}/maintenance.enable -f
+RewriteCond %{SCRIPT_FILENAME} !maintenance.html
+RewriteRule ^.*$ /maintenance.html [R=503,L]
+ErrorDocument 503 /maintenance.html
+Header Set Cache-Control "max-age=0, no-store"
