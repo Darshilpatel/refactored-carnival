@@ -1,6 +1,4 @@
-# Refactored Carnival
+# Official Website for PaperBag Labs
+<a href="http://paperbaglabs.com">view here</a>
 
-Website for PaperBag Labs <a href="http://paperbaglabs.com">view here</a>
-
-
-P.S: It's got a tacky name, to keep it hidden. 
+#### NOTE: Any changes made to the master branch will be pushed to the MAIN website.
